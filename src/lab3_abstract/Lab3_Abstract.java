@@ -4,6 +4,7 @@
  */
 package lab3_abstract;
 
+
 /**
  *
  * @author Mario
@@ -14,7 +15,9 @@ public class Lab3_Abstract {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       GUIsudoku frame = new GUIsudoku();
+       frame.setVisible(true);
+
     }
     
 }
