@@ -37,7 +37,7 @@ public class TableroSudoku {
                 if (puzzle[row][col] != 0) {
                     celdas[row][col].setText(String.valueOf(puzzle[row][col]));
                     celdas[row][col].setEditable(false);
-                    celdas[row][col].setBackground(Color.LIGHT_GRAY);
+                    celdas[row][col].setBackground(new Color(250, 112, 209));
                 } else {
                     int r = row, c = col;
                     celdas[row][col].addActionListener(new ActionListener() {
