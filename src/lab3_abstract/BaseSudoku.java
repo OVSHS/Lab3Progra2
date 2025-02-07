@@ -8,6 +8,14 @@ package lab3_abstract;
  *
  * @author Mario
  */
-public class BaseSudoku {
+public abstract class BaseSudoku {
+    protected int[][] tablerosudoku;
+    
+    public abstract void GenerarSolucion();
+    public abstract int[][] GenerarPuzzle();
+    
+    public int getValorSolucion(int row, int col){
+        return tablerosudoku[row][col];
+    }
     
 }
